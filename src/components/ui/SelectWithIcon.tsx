@@ -23,7 +23,7 @@ const SelectWithIcon = ({
           {...props}
          
 
-          className={`pl-12 h-11 w-full rounded-lg text-sm border border-line focus:border-primary appearance-none dark:bg-secondary ${props.className}`}
+          className={`pl-12 h-11 w-full rounded-lg text-sm border border-line focus:border-main appearance-none  ${props.className}`}
         >
           <option value="" >{defaultValue || `Select ${label}`}</option>
           {options.map((option) => (
